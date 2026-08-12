@@ -1,10 +1,10 @@
 {
   "domain": "odoo",
   "name": "Odoo",
-  "codeowners": ["@alexandrelievens"],
+  "codeowners": ["@kalel779"],
   "config_flow": true,
-  "documentation": "https://github.com/alexandrelievens/ha-odoo",
-  "issue_tracker": "https://github.com/alexandrelievens/ha-odoo/issues",
+  "documentation": "https://github.com/kalel779/ha-odoo",
+  "issue_tracker": "https://github.com/kalel779/ha-odoo/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
   "version": "1.0.0"

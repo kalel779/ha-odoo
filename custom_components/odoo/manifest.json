@@ -1,0 +1,11 @@
+{
+  "domain": "odoo",
+  "name": "Odoo",
+  "codeowners": ["@alexandrelievens"],
+  "config_flow": true,
+  "documentation": "https://github.com/alexandrelievens/ha-odoo",
+  "issue_tracker": "https://github.com/alexandrelievens/ha-odoo/issues",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}

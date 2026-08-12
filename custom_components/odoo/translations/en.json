@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Odoo",
+        "description": "Uses Odoo's standard XML-RPC API. Create an API key in Odoo under your profile > Account Security > API Keys.",
+        "data": {
+          "url": "Odoo URL (e.g. https://mysite.odoo.com)",
+          "db": "Database name",
+          "username": "Username / e-mail",
+          "api_key": "API key",
+          "currency": "Currency (e.g. EUR)",
+          "amount_type": "Amounts in"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed: check the URL, database, username and API key.",
+      "cannot_connect": "Could not reach the Odoo server.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This Odoo connection is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Odoo options",
+        "data": {
+          "scan_interval": "Revenue refresh interval (seconds)",
+          "reset_delay": "'New Order' sensor active duration (seconds)"
+        }
+      }
+    }
+  }
+}

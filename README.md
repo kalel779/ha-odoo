@@ -26,7 +26,7 @@ purchasing, accounting…) — the current release ships the sales module.
 - By default this counts orders with **any** open activity. If you also use
   Odoo Activities for unrelated things (calls, follow-ups…), set the
   **"Activity summary to match"** option (see Options below) to the exact
-  Summary text your automation uses (e.g. `Nouvelle commande à traiter`) so
+  Summary text your automation uses (e.g. `New order to process`) so
   only that specific activity is counted.
 
 **Last order**
